@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import pandas as pd
 
-st.set_page_config(layout="wide", page_icon="🥳")
+st.set_page_config(layout="wide", page_icon="🥳", page_title="FLPO R&S Trivia")
 # Initialize session state
 if "stocks" not in st.session_state:
     st.session_state.stocks = {
