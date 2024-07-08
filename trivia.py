@@ -157,15 +157,6 @@ if "attempt" not in st.session_state:
     st.session_state.attempt = 0
 
 
-def center_image(image, width):
-    st.markdown(
-        f'<div style="display: flex; justify-content: center;">'
-        f'<img src="{image}" width="{width}">'
-        f"</div>",
-        unsafe_allow_html=True,
-    )
-
-
 def check_answer(answer):
     correct_answer = st.session_state.trivia_questions[
         st.session_state.current_question
@@ -236,7 +227,7 @@ with subcol2:
             st.session_state.current_question
         ].get("image")
         if image:
-            center_image(image, 300)
+            st.image(image, width=300)
 
 with col2:
     st.markdown(
