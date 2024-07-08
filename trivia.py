@@ -202,7 +202,7 @@ def update_stock_history():
 col1, col2 = st.columns([3, 1], gap="large")
 subcol1, subcol2 = col1.columns(2, vertical_alignment="center")
 
-st.markdown(
+col1.st.markdown(
     "# <span style='color: #F0D66B;'>🎸📈 Filippo's Rock & Stock Trivia</span>",
     unsafe_allow_html=True,
 )
