@@ -163,12 +163,14 @@ def check_answer(answer):
     ]["answer"]
     if answer.lower() == correct_answer.lower():
         st.session_state.stocks["FLPO"] += random.randint(200, 300)
-        st.toast("green:[Goed gedaan!] 😄")
+        st.toast(
+            ":green[Goed gedaan!] 😄",
+        )
         st.session_state.current_question += 1
         st.session_state["txt_answer"] = ""
     else:
         st.session_state.stocks["FLPO"] -= random.randint(10, 200)
-        st.toast("red:[Fout antwoord!] 😔")
+        st.toast(":red[Fout antwoord!] 😔")
     update_stocks()
     update_ranking()
     update_stock_history()
