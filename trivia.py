@@ -227,7 +227,7 @@ with subcol2:
             st.session_state.current_question
         ].get("image")
         if image:
-            st.image(image, width=400)
+            st.image(image, width=300)
 
 with col2:
     st.markdown(
