@@ -1,0 +1,179 @@
+[
+    {
+        "question": "Welke rockband is bekend van het nummer 'Stairway to Heaven'?",
+        "options": [
+            "The Rolling Stones",
+            "Led Zeppelin",
+            "Pink Floyd",
+            "AC/DC"
+        ],
+        "answer": "Led Zeppelin",
+        "image": "https://www.moshville.co.uk/wordpress/wp-content/uploads/2014/01/Stairway-To-Heaven.jpg"
+    },
+    {
+        "question": "Wie is de zanger van de rockband U2?",
+        "options": [
+            "Bono",
+            "Edge",
+            "Adam Clayton",
+            "Larry Mullen Jr."
+        ],
+        "answer": "Bono",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bono_as_The_Fly_Cleveland_1992.jpg"
+    },
+    {
+        "question": "Welk album van Nirvana bevat het nummer 'Smells Like Teen Spirit'?",
+        "options": [
+            "Nevermind",
+            "In Utero",
+            "Bleach",
+            "MTV Unplugged in New York"
+        ],
+        "answer": "Nevermind"
+    },
+    {
+        "question": "Wat is de naam van de leadgitarist van Queen?",
+        "options": [
+            "Brian May",
+            "Roger Taylor",
+            "John Deacon",
+            "Freddie Mercury"
+        ],
+        "answer": "Brian May"
+    },
+    {
+        "question": "Wie is de zanger van de rockband Pearl Jam?",
+        "options": [
+            "Eddie Vedder",
+            "Chris Cornell",
+            "Kurt Cobain",
+            "Scott Weiland"
+        ],
+        "answer": "Eddie Vedder"
+    },
+    {
+        "question": "Welke band heeft het iconische album 'The Dark Side of the Moon' uitgebracht?",
+        "options": [
+            "The Who",
+            "Pink Floyd",
+            "Led Zeppelin",
+            "Black Sabbath"
+        ],
+        "answer": "Pink Floyd"
+    },
+    {
+        "question": "Wie was de oorspronkelijke drummer van de band The Beatles?",
+        "options": [
+            "Ringo Starr",
+            "Pete Best",
+            "George Harrison",
+            "Paul McCartney"
+        ],
+        "answer": "Pete Best"
+    },
+    {
+        "question": "Welke band heeft het nummer 'Sweet Child O' Mine' uitgebracht?",
+        "options": [
+            "Guns N' Roses",
+            "Aerosmith",
+            "Bon Jovi",
+            "Def Leppard"
+        ],
+        "answer": "Guns N' Roses"
+    },
+    {
+        "question": "Wat is de naam van de leadzanger van de band Foo Fighters?",
+        "options": [
+            "Dave Grohl",
+            "Taylor Hawkins",
+            "Pat Smear",
+            "Nate Mendel"
+        ],
+        "answer": "Dave Grohl"
+    },
+    {
+        "question": "Welke rockband heeft het nummer 'Bohemian Rhapsody' uitgebracht?",
+        "options": [
+            "Queen",
+            "The Rolling Stones",
+            "Led Zeppelin",
+            "Deep Purple"
+        ],
+        "answer": "Queen"
+    },
+    {
+        "question": "Welke Belgische band heeft het nummer 'Mia' uitgebracht?",
+        "options": [
+            "Gorki",
+            "dEUS",
+            "Zita Swoon",
+            "Balthazar"
+        ],
+        "answer": "Gorki"
+    },
+    {
+        "question": "Wie is de gitarist van de band The Edge?",
+        "options": [
+            "Adam Clayton",
+            "Larry Mullen Jr.",
+            "Bono",
+            "The Edge"
+        ],
+        "answer": "The Edge"
+    },
+    {
+        "question": "Als Led Zeppelin een trap naar de hemel heeft, welke rockband zou een lift naar de hel kunnen hebben genomen met hun hit 'Highway to Hell'?",
+        "options": [
+            "The Rolling Stones",
+            "AC/DC",
+            "Metallica",
+            "Black Sabbath"
+        ],
+        "answer": "AC/DC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/ACDC_Highway_to_Hell.jpg"
+    },
+    {
+        "question": "Als je het album 'The Dark Side of the Moon' van Pink Floyd zou omschrijven als een Italiaans gerecht, wat zou het zijn?",
+        "options": [
+            "Lasagna met veel lagen",
+            "Risotto met truffels",
+            "Pizza met alle toppings",
+            "Tiramisu"
+        ],
+        "answer": "Lasagna met veel lagen",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+        "question": "Stel dat de Beatles hun oorspronkelijke drummer Pete Best hadden behouden. Welk nummer zou hij als eerste hebben gespeeld in hun bekende Ed Sullivan Show-optreden?",
+        "options": [
+            "Love Me Do",
+            "Twist and Shout",
+            "She Loves You",
+            "I Want to Hold Your Hand"
+        ],
+        "answer": "Love Me Do",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/The_Beatles_1963.jpg/800px-The_Beatles_1963.jpg"
+    },
+    {
+        "question": "Voordat Måneskin beroemd werd, speelde de band covers van een Belgische artiest. Wie was dat?",
+        "options": [
+            "Selah Sue",
+            "Stromae",
+            "Gorki",
+            "Hooverphonic"
+        ],
+        "answer": "Selah Sue",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Selah_Sue_Live_-_2012_%288111956062%29.jpg/1280px-Selah_Sue_Live_-_2012_%288111956062%29.jpg"
+    },
+    {
+        "question": "Als Gorki's 'Mia' zou bestaan, in welke Belgische stad zou ze het meest waarschijnlijk haar favoriete café hebben?",
+        "options": [
+            "Gent",
+            "Brussel",
+            "Antwerpen",
+            "Brugge"
+        ],
+        "answer": "Gent",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Luc_de_vos-1422361953.jpg/800px-Luc_de_vos-1422361953.jpg"
+    }
+]

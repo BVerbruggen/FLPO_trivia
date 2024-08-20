@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 import pandas as pd
+import json
 
 st.set_page_config(layout="wide", page_icon="🥳", page_title="FLPO R&S Trivia")
 # Initialize session state
@@ -35,120 +36,10 @@ if "stock_colors" not in st.session_state:
     }
 
 if "trivia_questions" not in st.session_state:
-    st.session_state.trivia_questions = [
-        {
-            "question": "Welke rockband is bekend van het nummer 'Stairway to Heaven'?",
-            "options": ["The Rolling Stones", "Led Zeppelin", "Pink Floyd", "AC/DC"],
-            "answer": "Led Zeppelin",
-            "image": "https://www.moshville.co.uk/wordpress/wp-content/uploads/2014/01/Stairway-To-Heaven.jpg",
-        },
-        {
-            "question": "Wie is de zanger van de rockband U2?",
-            "options": ["Bono", "Edge", "Adam Clayton", "Larry Mullen Jr."],
-            "answer": "Bono",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bono_as_The_Fly_Cleveland_1992.jpg",
-        },
-        {
-            "question": "Welk album van Nirvana bevat het nummer 'Smells Like Teen Spirit'?",
-            "options": ["Nevermind", "In Utero", "Bleach", "MTV Unplugged in New York"],
-            "answer": "Nevermind",
-        },
-        {
-            "question": "Wat is de naam van de leadgitarist van Queen?",
-            "options": ["Brian May", "Roger Taylor", "John Deacon", "Freddie Mercury"],
-            "answer": "Brian May",
-        },
-        {
-            "question": "Welk nummer van AC/DC begint met de tekst 'I'm rolling thunder, I'm pouring rain'?",
-            "options": [
-                "Back in Black",
-                "Thunderstruck",
-                "Highway to Hell",
-                "You Shook Me All Night Long",
-            ],
-            "answer": "Thunderstruck",
-        },
-        {
-            "question": "Wie is de zanger van de rockband Pearl Jam?",
-            "options": [
-                "Eddie Vedder",
-                "Chris Cornell",
-                "Kurt Cobain",
-                "Scott Weiland",
-            ],
-            "answer": "Eddie Vedder",
-        },
-        {
-            "question": "Wat is het eerste album van de band Metallica?",
-            "options": [
-                "Kill 'Em All",
-                "Ride the Lightning",
-                "Master of Puppets",
-                "And Justice for All",
-            ],
-            "answer": "Kill 'Em All",
-        },
-        {
-            "question": "Welke band heeft het iconische album 'The Dark Side of the Moon' uitgebracht?",
-            "options": ["The Who", "Pink Floyd", "Led Zeppelin", "Black Sabbath"],
-            "answer": "Pink Floyd",
-        },
-        {
-            "question": "Wie was de oorspronkelijke drummer van de band The Beatles?",
-            "options": [
-                "Ringo Starr",
-                "Pete Best",
-                "George Harrison",
-                "Paul McCartney",
-            ],
-            "answer": "Pete Best",
-        },
-        {
-            "question": "Welke band heeft het nummer 'Sweet Child O' Mine' uitgebracht?",
-            "options": ["Guns N' Roses", "Aerosmith", "Bon Jovi", "Def Leppard"],
-            "answer": "Guns N' Roses",
-        },
-        {
-            "question": "Welke Belgische rockband staat bekend om hun nummer 'Lone Wolf'? ",
-            "options": ["Triggerfinger", "Deus", "Balthazar", "Ghinzu"],
-            "answer": "Triggerfinger",
-        },
-        {
-            "question": "Wat is de naam van de leadzanger van de band Foo Fighters?",
-            "options": ["Dave Grohl", "Taylor Hawkins", "Pat Smear", "Nate Mendel"],
-            "answer": "Dave Grohl",
-        },
-        {
-            "question": "Welke rockband heeft het nummer 'Bohemian Rhapsody' uitgebracht?",
-            "options": ["Queen", "The Rolling Stones", "Led Zeppelin", "Deep Purple"],
-            "answer": "Queen",
-        },
-        {
-            "question": "Welke Belgische band heeft het nummer 'Mia' uitgebracht?",
-            "options": ["Gorki", "dEUS", "Zita Swoon", "Balthazar"],
-            "answer": "Gorki",
-        },
-        {
-            "question": "Wie is de gitarist van de band The Edge?",
-            "options": ["Adam Clayton", "Larry Mullen Jr.", "Bono", "The Edge"],
-            "answer": "The Edge",
-        },
-        {
-            "question": "Welke Belgische band bracht het album 'Vox' uit?",
-            "options": ["Ghinzu", "dEUS", "Balthazar", "Triggerfinger"],
-            "answer": "Ghinzu",
-        },
-        {
-            "question": "Welke Britse rockband staat bekend om hun nummer 'Paint It Black'?",
-            "options": ["The Beatles", "The Rolling Stones", "Led Zeppelin", "The Who"],
-            "answer": "The Rolling Stones",
-        },
-        {
-            "question": "Wat is de naam van de zanger van de band Nirvana?",
-            "options": ["Kurt Cobain", "Dave Grohl", "Krist Novoselic", "Eddie Vedder"],
-            "answer": "Kurt Cobain",
-        },
-    ]
+    with open("questions.json") as f:
+        trivia_questions = json.load(f)
+        random.shuffle(trivia_questions)
+        st.session_state.trivia_questions = trivia_questions
 if "current_question" not in st.session_state:
     st.session_state.current_question = 0
 if "ranking" not in st.session_state:
@@ -211,13 +102,21 @@ subcol1, subcol2 = col1.columns(2, vertical_alignment="center")
 with subcol1:
 
     if st.session_state.current_question < len(st.session_state.trivia_questions):
+        # Print the current question number and total number of questions
+        current_question = st.session_state.current_question + 1
+        total_questions = len(st.session_state.trivia_questions)
+        st.subheader(f"Vraag {current_question}/{total_questions}")
+
+        # Print the current question
         question = st.session_state.trivia_questions[st.session_state.current_question][
             "question"
         ]
         st.subheader(f"{question}")
+        # Print the possible answers (options)
         options = st.session_state.trivia_questions[st.session_state.current_question][
             "options"
         ]
+
         answer = st.radio("Selecteer het juiste antwoord", options, key="radio_answer")
         st.button("Verstuur", on_click=check_answer, args=(answer,))
 
