@@ -140,12 +140,12 @@ with col2:
     for i, (name, stock) in enumerate(st.session_state.ranking, start=1):
         if name == "FLPO":
             st.markdown(
-                f"**<span style='background-color:{st.session_state.stock_colors[name]};color:#252525'>{i}. {name}: {stock} punten</span>**",
+                f"## **<span style='background-color:{st.session_state.stock_colors[name]};color:#252525'>{i}. {name}: {stock} punten</span>**",
                 unsafe_allow_html=True,
             )
         else:
             st.markdown(
-                f"**<span style='color:{st.session_state.stock_colors[name]}'>{i}. {name}: {stock} punten</span>**",
+                f"## **<span style='color:{st.session_state.stock_colors[name]}'>{i}. {name}: {stock} punten</span>**",
                 unsafe_allow_html=True,
             )
 
