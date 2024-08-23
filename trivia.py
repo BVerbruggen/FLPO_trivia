@@ -97,7 +97,7 @@ with col1:
         "# <span style='color: #F0D66B;'>🎸📈 Filippo's Rock & Stock Trivia</span>",
         unsafe_allow_html=True,
     )
-subcol1, subcol2 = col1.columns(2, vertical_alignment="center")
+subcol1, subcol2 = col1.columns([3, 1], vertical_alignment="center")
 
 with subcol1:
 
