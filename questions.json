@@ -1,79 +1,87 @@
 [
     {
+        "question": "Wat was je p-nummer?",
+        "options": ["p0086059", "p0089056", "p0086095", "p0085059"],
+        "answer": "p0086059",
+        "image": "https://www.flowinmotion.com/wp-content/uploads/2021/09/Parkeerbord.jpg"
+    },
+    {
         "question": "Als Led Zeppelin een trap naar de hemel heeft, welke rockband zou een lift naar de hel kunnen hebben genomen met hun hit 'Highway to Hell'?",
-        "options": [
-            "Metallica",
-            "The Rolling Stones",
-            "Black Sabbath",
-            "AC/DC"
-        ],
+        "options": ["Metallica", "The Rolling Stones", "Black Sabbath", "AC/DC"],
         "answer": "AC/DC",
         "image": "https://content.api.news/v3/images/bin/34e5434a59a2745c2f0cdb77ebca09bc"
     },
     {
+        "question": "Welk woord staat er niet in je woordenboek?",
+        "options": ["KidsTime", "WomanTime", "MeTime", "JustOpTime"],
+        "answer": "Metime",
+        "image": "https://www.usatoday.com/gcdn/presto/2019/08/02/USAT/4ddd3c00-18cb-4a18-9292-5f5f8479fb49-d_Brady_20_1.jpg"
+    },
+    {
         "question": "Als je het album 'The Dark Side of the Moon' van Pink Floyd zou omschrijven als een Italiaans gerecht, wat zou het zijn?",
-        "options": [
-            "Pizza met alle toppings",
-            "Lasagna met veel lagen",
-            "Tiramisu",
-            "Risotto met truffels"
-        ],
+        "options": ["Pizza met alle toppings", "Lasagna met veel lagen", "Tiramisu", "Risotto met truffels"],
         "answer": "Lasagna met veel lagen",
         "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
     },
     {
+        "question": "De beste manier om je voor te stellen bij de eerste les: “Mijn naam is Bagnoli Filippo ...",
+        "options": ["maar zeg maar Filiberke.", "en we gaan vandaag bloemschikken.", "baas van de Italiaanse maffia.", "maar ik spreek al Nederlands."],
+        "answer": "maar ik spreek al Nederlands.",
+        "image": "./sexy_italian.png"
+    },
+    {
         "question": "Stel dat de Beatles hun oorspronkelijke drummer Pete Best hadden behouden. Welk nummer zou hij als eerste hebben gespeeld in hun bekende Ed Sullivan Show-optreden?",
-        "options": [
-            "She Loves You",
-            "I Want to Hold Your Hand",
-            "Love Me Do",
-            "Twist and Shout"
-        ],
+        "options": ["She Loves You", "I Want to Hold Your Hand", "Love Me Do", "Twist and Shout"],
         "answer": "Love Me Do",
         "image": "https://www.beatlesbible.com/wp/media/beatles-pete-best_01.jpg"
     },
     {
+        "question": "Er is heel wat werk in een huis: tuinieren, schilderen, binnendeuren installeren, lampjes ophangen, elektriciteit, sanitair, etc ....",
+        "options": ["maar dat is niet erg, niemand ziet dat.", "dus gaan we op cursus om dat te leren.", "dus we beleggen tot we rijk zijn om een klusjesman in te huren.", "dus we laten dat liggen tot ons pensioen omdat we ons anders zouden vervelen."],
+        "answer": "dus gaan we op cursus om dat te leren.",
+        "image": "https://img.nieuwsblad.be/Ganr0GtALMaWMt9Ei-c6AGCy6os=/640x427/smart/https%3A%2F%2Fstatic.nieuwsblad.be%2FAssets%2FImages_Upload%2F2020%2F07%2F13%2F9c31057e-c4f3-11ea-ac70-4e9eff22f998.jpg"
+    },
+    {
         "question": "Voordat Måneskin beroemd werd, speelde de band covers van een Belgische artiest. Wie was dat?",
-        "options": [
-            "Gorki",
-            "Hooverphonic",
-            "Stromae",
-            "Selah Sue"
-        ],
+        "options": ["Gorki", "Hooverphonic", "Stromae", "Selah Sue"],
         "answer": "Selah Sue",
         "image": "https://i.ytimg.com/vi/U2dtlJK76R8/maxresdefault.jpg"
     },
     {
+        "question": "Wat is de betekenis van je prachtige achternaam volgens het internet?",
+        "options": ["De achternaam Bagnoli komt van plekken die bekendstaan als kuuroorden. Geen wonder dat jij altijd zo zen bent – jij bent praktisch vernoemd naar een spa!", "De achternaam Bagnoli komt van een toponiem dat zoveel betekent als 'dorp vol muziek'. Geen wonder dat jij altijd een deuntje in je hoofd hebt – je bent praktisch geboren met een soundtrack!", "Bagnoli verwijst naar een plek die bekendstaat om zijn omvangrijke families. Logisch dat jij zoveel kinderen hebt – je bent genetisch voorbestemd om familiefeesten te vullen!", "De naam Bagnoli is eigenlijk een toponiem voor een plek waar lange baarden in de mode zijn. Daarom heb jij een prachtige baard – jij volgt gewoon een eeuwenoude familietraditie!"],
+        "answer": "De achternaam Bagnoli komt van plekken die bekendstaan als kuuroorden. Geen wonder dat jij altijd zo zen bent – jij bent praktisch vernoemd naar een spa!",
+        "image": "./google_bagnoli.png"
+    },
+    {
         "question": "Als Gorki's 'Mia' zou bestaan, in welke Belgische stad zou ze het meest waarschijnlijk haar favoriete café hebben?",
-        "options": [
-            "Brussel",
-            "Antwerpen",
-            "Gent",
-            "Brugge"
-        ],
+        "options": ["Brussel", "Antwerpen", "Gent", "Brugge"],
         "answer": "Gent",
         "image": "https://wallinofficial.be/uploads/files/projects/Luc-de-vos/_1600xAUTO_crop_center-center_none/Street-art-graffiti-muurschildering-mural-artiest-steppe-letterknecht-project-luc-de-vos-radio-willy-regio-lokeren-gent1.jpg"
     },
     {
         "question": "Tijdens een residentiële vergadering aan het einde van het academiejaar maakte Filippo ooit een speciale spaghettisaus. Wat was er bijzonder aan zijn saus?",
-        "options": [
-            "Hij serveerde het met truffels",
-            "Hij maakte het met kaasballetjes",
-            "Hij voegde chocolade toe",
-            "Hij gebruikte Italiaanse wijn"
-        ],
+        "options": ["Hij serveerde het met truffels", "Hij maakte het met kaasballetjes", "Hij voegde chocolade toe", "Hij gebruikte Italiaanse wijn"],
         "answer": "Hij maakte het met kaasballetjes",
         "image": "https://www.allrecipes.com/thmb/m6rREDbUqh3gH7JKJU_7IeeuUSY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x499:1001x501)/21353-italian-spaghetti-sauce-with-meatballs-2x1-141-cedbb650b4264576ab923c91215ce7fc.jpg"
     },
     {
         "question": "Er zijn de 'Flying Doctors', de 'Topdokters', en 'Doctor Who'... Maar binnen onze school kennen we Filippo als de...",
-        "options": [
-            "Techno-wizard",
-            "Cyber-chirurg",
-            "Laptopdokter",
-            "Digitale maestro"
-        ],
+        "options": ["Techno-wizard", "Cyber-chirurg", "Laptopdokter", "Digitale maestro"],
         "answer": "Laptopdokter",
         "image": "./laptopdokter.jpeg"
+    },
+    {
+        "question": "Filippo neemt nu afscheid van ons. Maar sommigen onder ons dachten dat ze al veel langer geleden afscheid moesten nemen. Hoe komt dit?",
+        "options": ["Toen we van jou het mailtje kregen met de boodschap: Helaas moet ik afscheid nemen, want ik ben opgepakt en in de catacomben van Thomas More opgesloten. Blijkbaar is het een misdaad om je laptop niet bij de servicedesk in te leveren. Wie had gedacht dat mijn koppigheid zou eindigen in een high-tech kerker?", "Paniek in de gangen van de KHK toen de brievenbusjes van de collega's een onverwachte brief ontvingen: het overlijdensbericht van niemand minder dan... Fillipo Bagnoli! We dachten allemaal dat je naar de Italiaanse hemel was gegaan.", "Toen je 5 minuten te laat de vergadering binnenstapte, begonnen we ons echt zorgen te maken. We dachten al dat er iets ernstigs was gebeurd, aangezien jij normaal gesproken nog eerder aanwezig bent dan de klok zelf! We stonden klaar om de politie in te schakelen en een opsporingsbericht uit te sturen. Gelukkig bleek het loos alarm en konden we opgelucht ademhalen. Maar goed, je hebt ons wel even op het puntje van onze stoelen gehad!"],
+        "answer": "Paniek in de gangen van de KHK toen de brievenbusjes van de collega's een onverwachte brief ontvingen: het overlijdensbericht van niemand minder dan... Fillipo Bagnoli! We dachten allemaal dat je naar de Italiaanse hemel was gegaan.",
+        "image": "./goodbye.jpeg"
+    },
+    {
+        "question": "In heel je carrière heb je hier en daar wel eens bijnaam gekregen, maar welke bijnaam kreeg jij vooral dankzij een beroemde rage uit de jaren '90?",
+        "options": ["TechFlip", "Flippo", "Filigotchi (naar Tamagotchi)", "Filipmon (naar Pokemon)", "Chips-Filips", "Flipboy (naar Gameboy)"],
+        "answer": "Flippo",
+        "image": "https://huisvanalijn.be/files/attachments/.13469/w360q85_Tamagotchi_2.jpg"
     }
 ]
+

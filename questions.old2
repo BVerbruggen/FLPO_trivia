@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Als Led Zeppelin een trap naar de hemel heeft, welke rockband zou een lift naar de hel kunnen hebben genomen met hun hit 'Highway to Hell'?",
+        "options": [
+            "Metallica",
+            "The Rolling Stones",
+            "Black Sabbath",
+            "AC/DC"
+        ],
+        "answer": "AC/DC",
+        "image": "https://content.api.news/v3/images/bin/34e5434a59a2745c2f0cdb77ebca09bc"
+    },
+    {
+        "question": "Als je het album 'The Dark Side of the Moon' van Pink Floyd zou omschrijven als een Italiaans gerecht, wat zou het zijn?",
+        "options": [
+            "Pizza met alle toppings",
+            "Lasagna met veel lagen",
+            "Tiramisu",
+            "Risotto met truffels"
+        ],
+        "answer": "Lasagna met veel lagen",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+        "question": "Stel dat de Beatles hun oorspronkelijke drummer Pete Best hadden behouden. Welk nummer zou hij als eerste hebben gespeeld in hun bekende Ed Sullivan Show-optreden?",
+        "options": [
+            "She Loves You",
+            "I Want to Hold Your Hand",
+            "Love Me Do",
+            "Twist and Shout"
+        ],
+        "answer": "Love Me Do",
+        "image": "https://www.beatlesbible.com/wp/media/beatles-pete-best_01.jpg"
+    },
+    {
+        "question": "Voordat Måneskin beroemd werd, speelde de band covers van een Belgische artiest. Wie was dat?",
+        "options": [
+            "Gorki",
+            "Hooverphonic",
+            "Stromae",
+            "Selah Sue"
+        ],
+        "answer": "Selah Sue",
+        "image": "https://i.ytimg.com/vi/U2dtlJK76R8/maxresdefault.jpg"
+    },
+    {
+        "question": "Als Gorki's 'Mia' zou bestaan, in welke Belgische stad zou ze het meest waarschijnlijk haar favoriete café hebben?",
+        "options": [
+            "Brussel",
+            "Antwerpen",
+            "Gent",
+            "Brugge"
+        ],
+        "answer": "Gent",
+        "image": "https://wallinofficial.be/uploads/files/projects/Luc-de-vos/_1600xAUTO_crop_center-center_none/Street-art-graffiti-muurschildering-mural-artiest-steppe-letterknecht-project-luc-de-vos-radio-willy-regio-lokeren-gent1.jpg"
+    },
+    {
+        "question": "Tijdens een residentiële vergadering aan het einde van het academiejaar maakte Filippo ooit een speciale spaghettisaus. Wat was er bijzonder aan zijn saus?",
+        "options": [
+            "Hij serveerde het met truffels",
+            "Hij maakte het met kaasballetjes",
+            "Hij voegde chocolade toe",
+            "Hij gebruikte Italiaanse wijn"
+        ],
+        "answer": "Hij maakte het met kaasballetjes",
+        "image": "https://www.allrecipes.com/thmb/m6rREDbUqh3gH7JKJU_7IeeuUSY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x499:1001x501)/21353-italian-spaghetti-sauce-with-meatballs-2x1-141-cedbb650b4264576ab923c91215ce7fc.jpg"
+    },
+    {
+        "question": "Er zijn de 'Flying Doctors', de 'Topdokters', en 'Doctor Who'... Maar binnen onze school kennen we Filippo als de...",
+        "options": [
+            "Techno-wizard",
+            "Cyber-chirurg",
+            "Laptopdokter",
+            "Digitale maestro"
+        ],
+        "answer": "Laptopdokter",
+        "image": "./laptopdokter.jpeg"
+    }
+]

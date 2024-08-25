@@ -38,7 +38,6 @@ if "stock_colors" not in st.session_state:
 if "trivia_questions" not in st.session_state:
     with open("questions.json") as f:
         trivia_questions = json.load(f)
-        random.shuffle(trivia_questions)
         st.session_state.trivia_questions = trivia_questions
 if "current_question" not in st.session_state:
     st.session_state.current_question = 0
@@ -121,7 +120,7 @@ with subcol1:
         st.button("Verstuur", on_click=check_answer, args=(answer,))
 
     else:
-        st.write("Trivia spel voorbij! Bedankt voor het spelen! 🎉")
+        st.header("FLPO is ONZE winnaar! We gaan je missen! :heart: :blue_heart: :green_heart: :purple_heart:")
         st.balloons()
 with subcol2:
     if st.session_state.current_question < len(st.session_state.trivia_questions):
