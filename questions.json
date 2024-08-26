@@ -60,6 +60,12 @@
         "image": "https://wallinofficial.be/uploads/files/projects/Luc-de-vos/_1600xAUTO_crop_center-center_none/Street-art-graffiti-muurschildering-mural-artiest-steppe-letterknecht-project-luc-de-vos-radio-willy-regio-lokeren-gent1.jpg"
     },
     {
+        "question": "Hoeveel kinderen heb je?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5",
+        "image": "https://miro.medium.com/v2/resize:fit:620/1*kwN_Y8GNf2ZB6sNQxngVyw@2x.jpeg"
+    },
+    {
         "question": "Tijdens een residentiële vergadering aan het einde van het academiejaar maakte Filippo ooit een speciale spaghettisaus. Wat was er bijzonder aan zijn saus?",
         "options": ["Hij serveerde het met truffels", "Hij maakte het met kaasballetjes", "Hij voegde chocolade toe", "Hij gebruikte Italiaanse wijn"],
         "answer": "Hij maakte het met kaasballetjes",
